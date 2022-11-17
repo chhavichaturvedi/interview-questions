@@ -71,9 +71,11 @@ azure-servicebus==0.21.1
 azure-servicefabric==6.1.2.9
 azure-servicemanagement-legacy==0.20.6
 azure-storage==0.35.1
-azure-storage-blob==1.1.0
+azure-storage-blob==12.13.0
 azure-storage-common==1.1.0
 azure-storage-file==1.1.0
 azure-storage-nspkg==3.0.0
-azure-storage-queue==1.1.0
+azure-storage-queue==12.4.0
 msrestazure==0.4.32
+knack>=0.5.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
